@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web Calculator</h1>
+    <form id="calculatorForm">
+        <input type="number" id="a" placeholder="First number" required>
+        <input type="number" id="b" placeholder="Second number">
+        <select id="operation">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+            <option value="natural_logarithm">Natural Logarithm</option>
+            <option value="exponential">Exponential</option>
+        </select>
+        <button type="submit">Calculate</button>
+    </form>
+    <h2 id="result"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
